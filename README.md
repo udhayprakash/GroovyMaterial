@@ -147,3 +147,72 @@ vs code groovy extension
         Error handling, retry logic, and catchError strategies
         Using sh, bat, readJSON, writeFile, and other steps
         Best practices for secure, scalable, and maintainable pipelines
+
+
+
+##
+
+                ------------------------
+                 JENKINS COURSE CONTENT
+                ------------------------
+
+    Module 1: Jenkins Pipeline Deep Dive
+        Jenkinsfile anatomy and execution lifecycle
+        Declarative vs Scripted pipelines: key differences and trade-offs
+        Structure: agent, stages, steps, environment, post
+        Practical examples of each pipeline type
+
+    🛠️ Module 2: Groovy in Scripted Pipelines
+        Writing custom scripted pipelines using Groovy
+        Groovy closures in build logic
+        Using conditionals (if, switch) and loops (for, each)
+        Safely chaining logic with null-safe and Elvis operators
+        Accessing Jenkins environment variables and workspace
+
+    📚 Module 3: Jenkins Shared Libraries with Groovy
+        Introduction to shared libraries: vars/, src/, resources/
+        Creating reusable pipeline steps using Groovy functions
+        Managing common stages across multiple Jenkinsfiles
+        Injecting shared utility scripts and custom classes
+
+    🔐 Module 4: Secure Inputs and Credentials Management
+        Using credentialsId in pipelines
+        Injecting credentials into withCredentials blocks
+        Writing secure Groovy code to avoid exposing secrets
+        Handling input steps with timeout and validation
+
+    🔗 Module 5: External Integrations via Groovy
+        Making HTTP/REST API calls with Groovy (URL, HttpBuilder, or httpRequest step)
+        Parsing JSON/XML for test reports, deployments, etc.
+        Posting notifications (Slack, Teams, email) via Groovy scripts
+        Using external tools (e.g., Git, Docker, Maven) within Groovy-powered sh or bat steps
+
+    🔁 Module 6: Dynamic Pipeline Behaviors
+        Conditional stage execution using when, environment checks, or Groovy logic
+        Config-driven pipelines using external YAML/JSON files
+        Matrix builds and parallelism with custom Groovy workflows
+        Using closures and functions to reduce boilerplate in complex pipelines
+
+    🧪 Module 7: Pipeline Testing & Simulation
+        Unit testing shared libraries with Spock
+        Pipeline Unit Testing framework for validating Jenkins logic
+        Mocking and simulating Jenkins steps (e.g., sh, checkout) using Groovy
+        Verifying behavior with test coverage and assertions
+
+    🔍 Module 8: Debugging, Logging & Exception Handling
+        Output strategies: echo, structured logging with Groovy
+        Try-catch blocks in Jenkinsfiles
+        Capturing build logs and artifacts
+        Handling failures with catchError, retry, and unstable
+
+    🚀 Module 9: End-to-End CI/CD Implementation
+        End-to-end CI/CD pipeline using Jenkins + Groovy
+        Compiling code, running tests, scanning for vulnerabilities
+        Docker image creation, tagging, and publishing
+        Staging and promoting deployments via pipeline stages
+
+    🧠 Module 10: Capstone Projects & Best Practices
+        Project: Build and deploy a microservice pipeline using shared libraries and external APIs
+            Integrate security scans and auto-rollback logic
+            Apply pipeline modularization and auditing
+            Version control, documentation, and pipeline governance
