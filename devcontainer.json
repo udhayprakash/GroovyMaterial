@@ -1,9 +1,12 @@
 {
-    "name": "Groovy Dev Container",
-    "dockerFile": "Dockerfile",
-    "forwardPorts": [8080],
-    "settings": { 
-        "terminal.integrated.shell.linux": "/bin/bash"
-    },
-    "extensions": ["groovy.groovy"]
+  "name": "Groovy Development",
+  "dockerComposeFile": [
+    "../docker-compose.yml"
+  ],
+  "service": "groovy",
+  "workspaceFolder": "/workspace",
+  "extensions": [
+    "team-groovy.groovy",
+    "ms-vscode-remote.remote-containers"
+  ]
 }
